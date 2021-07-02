@@ -1,0 +1,8 @@
+.MuiButton-root {
+    color: rgba(255, 255, 255, 0.87) !important;
+    width: 100%;
+}
+
+.MuiButton-root.active{
+    color: #4fc3f7 !important;
+}
