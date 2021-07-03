@@ -6,3 +6,72 @@
 .MuiButton-root.active{
     color: #4fc3f7 !important;
 }
+
+.form-label-addnew{
+    width: 200px;
+    font-size: 17px;
+    margin-left: 20px;
+}
+
+.form-input-addnew{
+   width: 70% !important;
+}
+
+.form-input-addnew input{
+    height: 35px;
+    border: solid 1px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.file-input:focus{
+    outline: none;
+}
+.file-input{
+    cursor: pointer;
+}
+
+.trim-area{
+    display: flex;
+}
+
+.trim-area .trim-label{
+    align-self: center;
+    margin-right: 40px;
+}
+.trim-area .sub-label{
+    align-self: center;
+}
+
+.trim-area .sub-label label{
+    display: block;
+}
+
+.import-btn{
+    width: 120px !important;
+    background-color: rgb(0, 138, 191) !important;
+    border-radius: 5px !important;
+    display: block !important;
+    margin: auto !important;
+    margin-bottom: 10px !important;
+
+    
+}
+
+
+
+@media only screen and (min-width: 935px)
+{
+  .form-div{
+      margin:15px;
+      display: flex;
+  }
+}
+
+@media only screen and (max-width: 935px)
+{
+  .form-div{
+      margin:15px;
+      display: block;
+  }
+}
